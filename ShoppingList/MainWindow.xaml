@@ -1,0 +1,36 @@
+﻿<Window x:Class="ShoppingList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShoppingList"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="AntiqueWhite">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="LISTA ZAKUPÓW" FontSize="20" FontWeight="Bold" Foreground="Chocolate" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Stwórz listę zakupów" Click="CreateShoppingList_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="54" Width="164" Margin="10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Usuń listę zakupów" Click="DeleteShoppingList_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="54" Width="164" Margin="10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Dodaj produkt do bazy" Click="AddProductToDatabase_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="54" Width="164" Margin="10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center">
+
+        </StackPanel>
+    </Grid>
+</Window>
