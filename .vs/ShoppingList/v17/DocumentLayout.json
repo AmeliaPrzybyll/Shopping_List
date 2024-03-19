@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Shopping_List\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|d:\\github\\shopping_list\\shoppinglist\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Shopping_List\\ShoppingList\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ShoppingList\\MainWindow.xaml",
+              "ToolTip": "D:\\GitHub\\Shopping_List\\ShoppingList\\MainWindow.xaml",
+              "RelativeToolTip": "ShoppingList\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T16:05:36.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
