@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|d:\\github\\shopping_list\\shoppinglist\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|d:\\github\\shopping_list\\shoppinglist\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA9AEC6B-447B-467B-B24F-C2D8CECF476B}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub\\Shopping_List\\ShoppingList\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ShoppingList\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\GitHub\\Shopping_List\\ShoppingList\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ShoppingList\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAhwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T09:35:29.46Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

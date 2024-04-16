@@ -15,25 +15,27 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" MinHeight="165.003" />
+            <RowDefinition Height="Auto" MinHeight="172.988" />
+            <RowDefinition Height="0*" />
         </Grid.RowDefinitions>
 
-        <Label Content="LISTA ZAKUPÓW" FontSize="20" FontWeight="Bold" Foreground="Chocolate" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" />
+        <Label Content="LISTA ZAKUPÓW" FontSize="20" FontWeight="Bold" Foreground="Chocolate" HorizontalAlignment="Center" VerticalAlignment="Center" Height="37" Width="168" />
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="10">
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,10" Width="184">
             <Button Content="Stwórz listę zakupów" Click="CreateShoppingList_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="54" Width="164" Margin="10"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="10">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,10" Width="184">
             <Button Content="Usuń listę zakupów" Click="DeleteShoppingList_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="54" Width="164" Margin="10"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="10">
-            <Button Content="Dodaj produkt do bazy" Click="AddProductToDatabase_Click" FontSize="14" Background="Chocolate" Foreground="White" Height="58" Width="164"/>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="19,0,0,10" Width="164">
+            <Button Content="Dodaj produkt do bazy"  FontSize="14" Background="Chocolate" Foreground="White" Height="56" Width="164"/>
         </StackPanel>
 
-        <Image Source="D:\GitHub\Shopping_List\02june22_basket_icon_04-removebg-preview.png" Height="300" Width="300" Margin="474,47,26,85" Grid.Row="1" Grid.RowSpan="3"/>
+        <Image Source="D:\GitHub\Shopping_List\02june22_basket_icon_04-removebg-preview.png" Margin="474,47,26,85" Grid.Row="1" Grid.RowSpan="3"/>
     </Grid>
 </Window>
+
+
